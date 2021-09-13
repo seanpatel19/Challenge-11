@@ -35,7 +35,7 @@ numpy
 
 Before running the application first install the following dependencies.
 See the associated Screenshot for what to Install 
-
+![Installs](Images/installs.jpg)
  
 
 
@@ -45,7 +45,10 @@ See the associated Screenshot for what to Install
 
 Please see the following images of the code and resulting graphs 
 
+![component plots](Images/compnent plots.jpg)
 
+
+![yhat projections](Images/yhats.jpg)
 ---
 
 ## Usage
