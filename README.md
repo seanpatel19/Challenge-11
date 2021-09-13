@@ -56,7 +56,7 @@ Please see the following images of the code and resulting graphs
 
 To use the data simply clone the repository.
 
-Different K values can be looked at to see if the clusters are more useful. Just because 4 is the most efficent it may not be the best.
+Different sales values can be imput and the projections will change as well 
 
 Charts could also be changed to make things look different  
 ```
