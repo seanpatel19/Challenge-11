@@ -2,21 +2,17 @@
 
 Crypto Clusters 
 
-Our goal was to use unsupervised machine learning to clusters cryptocurrencies by their performance in different time periods.
+Our goal was to analyze the company's financial and user data in clever ways to make the company grow.
 
-1. We starting by importing Crypto Data into our note book, and turning it into a DataFrame .
+Step 1: Find unusual patterns in hourly Google search traffic
 
-2. We then found the optimal K to try so we we would have an idea of what the most efficent number of clusters would be.
+Step 2: Mine the search traffic data for seasonality
 
-3. We then put the sklearn model to work and graphed the results. 
+Step 3: Relate the search traffic to stock price patterns
 
-4. Afterwards we filtered out some of the data we did not need using PCA.
+Step 4: Create a time series model with Prophet
 
-5. We then put the model to work again on the filtered data.
-
-6. Finally we compared results between the two
-
-7. The filtered Data provided a cleaner picture of the clusters 
+Step 5 (optional): Forecast revenue by using time series models
 
 
 
@@ -24,27 +20,22 @@ Our goal was to use unsupervised machine learning to clusters cryptocurrencies b
 ---
 
 ## Technologies
-This application is written in Python 3.7
+This application is written in Python 3.7 using Google Collab 
 
 this application uses the following packages:
  
 pandas
 pyviz hvplot
-pathlib
-KMeans from sklearn 
-PCA from sklearn
-StandardScaler from sklearn
+fbprophet 
+numpy 
 
 ---
 
 ## Installation Guide
 
 Before running the application first install the following dependencies.
+See the associated Screenshot for what to Install 
 
-python
-- First item  conda install -c pandas
-- Second item conda install -c pathlib
-- Third item conda install -c sklearn
  
 
 
@@ -54,11 +45,7 @@ python
 
 Please see the following images of the code and resulting graphs 
 
-![K code](https://github.com/seanpatel19/Challenge-10/blob/7964cfe6641e6abbcdaeff21a49dd9b33db752dc/Images/K%20value%20code.jpg)
 
-![elbow curve](https://github.com/seanpatel19/Challenge-10/blob/91e7edb00b2aec3a6c4c6bb698a1ab60f086a52d/Images/elbow%20curve%20challenge%2010.jpg)
-
-![cluster comparison](https://github.com/seanpatel19/Challenge-10/blob/91e7edb00b2aec3a6c4c6bb698a1ab60f086a52d/Images/final%20clusters.jpg)
 ---
 
 ## Usage
