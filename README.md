@@ -45,7 +45,7 @@ See the associated Screenshot for what to Install
 
 Please see the following images of the code and resulting graphs 
 
-![component plots](Images/compnent plots.jpg)
+![compnent plots](Images/compnent plots.jpg)
 
 
 ![yhat projections](Images/yhats.jpg)
