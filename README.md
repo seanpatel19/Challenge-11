@@ -46,7 +46,7 @@ See the associated Screenshot for what to Install
 Please see the following images of the code and resulting graphs 
 
 
-![compnent plots](Images/compnent plots.jpg)
+![compnent plots](https://github.com/seanpatel19/Challenge-11/blob/d4ed37185393154a608bbb59121421911ee21796/Images/compnent%20plots.jpg)
 
 
 ![yhat projections](Images/yhats.jpg)
